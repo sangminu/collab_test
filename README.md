@@ -28,6 +28,12 @@ npm run build
 
 The production build is written to `dist`.
 
+TypeScript checks can be run separately with:
+
+```bash
+npm run typecheck
+```
+
 ## Deploy to Netlify
 
 This repository includes `netlify.toml`, so Netlify can deploy it with:

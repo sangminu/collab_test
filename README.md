@@ -38,3 +38,7 @@ This repository includes `netlify.toml`, so Netlify can deploy it with:
 
 The redirect rule in `netlify.toml` serves `index.html` for all paths, which
 keeps the app working on direct refreshes and shared URLs.
+
+If Netlify reports that it cannot resolve `/src/main.tsx`, the deployed source
+does not include the `src` directory. Commit or upload the full project folder,
+including `src/main.tsx`, `src/App.tsx`, and all files under `src/components`.

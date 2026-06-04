@@ -32,7 +32,7 @@ The production build is written to `dist`.
 
 This repository includes `netlify.toml`, so Netlify can deploy it with:
 
-- Build command: `npm run build`
+- Build command: `npm --ignore-scripts run build`
 - Publish directory: `dist`
 - Node version: `22`
 
